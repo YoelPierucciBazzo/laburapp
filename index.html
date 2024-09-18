@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de sesión</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="inicio">
+    <form class="formulario" action="validacionUsuario.php" method="post">
+        <p class="textoTitulo">Inicio de sesión</p>
+        <label class="textoSecundario" for="usuario">Ingrese su usuario</label>
+        <input type="text" name="usuario" autofocus required> <br> <br>
+        <label class="textoSecundario" for="calve">Ingrese su contraseña</label>
+        <input type="text" name="clave" required> <br> <br>
+        <input class="boton" type="submit" value="Iniciar sesión">
+    </form>
+</body>
+</html>
