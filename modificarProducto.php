@@ -29,7 +29,7 @@
         echo "<input name='codigo' type='hidden' value='".$fila[0]."'/>";
         echo "Nombre: <input id='nombre' type='text' name='nombre' value='".$fila[1]."'/>";
         echo "<br>";
-        echo "Precio: <input id='precio' type='text' name='precio' value='".$fila[2]."'/>";
+        echo "Precio: <input id='precio' type='text' name='precio' value='".$fila[2]."'/>";  
         echo "<br>";
         echo "Stock: <input id='stock' type='text' name='stock' value='".$fila[3]."'/>";
         echo "<br>";
